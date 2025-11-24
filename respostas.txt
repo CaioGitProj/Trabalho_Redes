@@ -4,8 +4,7 @@ b) Meu navegador indica que aceita en-us e pt-br, até onde pude notar
 
 c) Meu IP aparentemente é 128.119.245.12. O endereço de gaia.cs é 192.168.1.102
 
-d) A primeira requisição retorna 200 OK e a segunda 404 Not Found, provavelmente porque eu baixei
-o arquivo anexado e não procurei diretamente ou algum erro do gênero.
+d) A primeira requisição retorna 200 OK e a segunda 404 Not Found
 
 e) Dia 23 de setembro de 2003 às cinco e meia da manhã
 
