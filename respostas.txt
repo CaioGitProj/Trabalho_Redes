@@ -8,7 +8,8 @@ d) A primeira requisição retorna 200 OK e a segunda 404 Not Found
 
 e) Dia 23 de setembro de 2003 às cinco e meia da manhã
 
-f) 555 bytes, aparentemente
+f) A primeira( a que da certo) requisição retorna 73 bytes. Já a segunda deveria retornar
+1071 bytes de conteúdo, mas deu erro.
 
 g) Não notei essa linha na minha requisição
 
