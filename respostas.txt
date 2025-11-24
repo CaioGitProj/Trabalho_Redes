@@ -1,0 +1,34 @@
+a) Meu navegador está usando a versão 1.1 do HTTP e a do servidor também
+
+b) Meu navegador indica que aceita en-us e pt-br, até onde pude notar
+
+c) Meu IP aparentemente é 128.119.245.12. O endereço de gaia.cs é 192.168.1.102
+
+d) A primeira requisição retorna 200 OK e a segunda 404 Not Found, provavelmente porque eu baixei
+o arquivo anexado e não procurei diretamente ou algum erro do gênero.
+
+e) Dia 23 de setembro de 2003 às cinco e meia da manhã
+
+f) 555 bytes, aparentemente
+
+g) Não notei essa linha na minha requisição
+
+h) Sim, ele retornou o HTML da página inteira em uma sessão abaixo do conteúdo referente ao HTTP:
+
+\n
+<html>\n
+\n
+Congratulations again!  Now you've downloaded the file lab2-2.html. <br>\n
+This file's last modification date will not change.  <p>\n
+Thus  if you download this multiple times on your browser, a complete copy <br>\n
+will only be sent once by the server due to the inclusion of the IN-MODIFIED-SINCE<br>\n
+field in your browser's HTTP GET request to the server.\n
+\n
+</html>\n
+
+i) Esse GET também não tem uma linha com IF-MODIFIED-SINCE
+
+j) A frase apresentada foi "Moved Permanently". Mais uma vez, a requisição retornou explicitamente
+todo o HTML da página. Aparentemente, o conteúdo que deveira ser lido por essa requisição está em
+outro link, como demonstrado na linha:
+<p>The document has moved <a href="https://gaia.cs.umass.edu//favicon.ico">here</a>.</p>\n
